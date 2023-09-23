@@ -1,0 +1,79 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set font styles for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header section */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the contact information */
+p strong {
+    font-weight: bold;
+}
+
+/* Add some spacing between sections */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Style the list items under Academic Qualifications */
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+/* Style the Academic and Internship project titles */
+p strong {
+    font-weight: bold;
+}
+
+/* Apply a background color to the Declaration section */
+h2:last-of-type {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style the Declaration text */
+h2:last-of-type + p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+/* Add a signature line */
+h2:last-of-type + p + p {
+    text-align: right;
+    margin-right: 20px;
+}
+
+/* Add more styles as needed */
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
